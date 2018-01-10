@@ -1,4 +1,7 @@
 dist/
-!dist/*.php
 .idea
 node_modules
+
+!dist/otherdata.php
+!dist/other/index.php
+!dist/aboutcontent.php

@@ -1,5 +1,5 @@
 <template>
-    <span>This is the message: {{msg}}</span>
+    <span>{{msg}}</span>
 </template>
 <script>
   export default {

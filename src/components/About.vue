@@ -1,7 +1,8 @@
 <template>
     <div>
         <h2>About Page</h2>
-        <msg :msg="ajaxContent"></msg>
+        <div>Static content: {{staticVar}}</div>
+        <div>Ajax content pre-rendered: <msg :msg="ajaxContent"></msg></div>
     </div>
 </template>
 
@@ -22,7 +23,8 @@
     },
     data () {
       return {
-        ajaxContent: name
+        ajaxContent: name,
+        staticVar: 'Static variable string'
       }
     },
     components: {

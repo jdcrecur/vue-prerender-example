@@ -1,7 +1,15 @@
-dist/
-.idea
-node_modules
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
 
-!dist/otherdata.php
-!dist/other/index.php
-!dist/aboutcontent.php
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
